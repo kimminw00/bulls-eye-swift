@@ -22,21 +22,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAlert(_ sender: UIButton) {
-        let message = "The value of the slider is: \(currentValue)"
+        let message = "The value of the slider is: \(currentValue)" + "\nThe target value is: \(targetValue)"
         let alert = UIAlertController(title: "Hello World", message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        let action = UIAlertAction(title: "O.K", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+        startNewRound()
     }
-    
     
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentValue = lroundf(slider.value)
-        print("The value of the slider is now  \(currentValue)")
+        print("The value of the slider is now \(currentValue)")
     }
     
     func updateLabels() {
-        targetLabel.text = String(currentValue)
+        targetLabel.text = String(targetValue)
     }
     
     func startNewRound() {
