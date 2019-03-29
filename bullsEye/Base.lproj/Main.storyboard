@@ -102,7 +102,56 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcT-w2-HY4">
                                         <rect key="frame" x="0.0" y="284.5" width="667" height="90.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaX-hB-s5Z">
+                                                <rect key="frame" x="178" y="35" width="53.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0at-db-0ic">
+                                                <rect key="frame" x="236" y="35" width="49" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAP-o7-zdM">
+                                                <rect key="frame" x="386" y="35" width="58.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBx-fH-MRO">
+                                                <rect key="frame" x="446" y="35" width="28.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bb-Id-d4d">
+                                                <rect key="frame" x="31" y="30" width="71" height="30"/>
+                                                <state key="normal" title="Start Over"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEI-J3-6EZ">
+                                                <rect key="frame" x="582" y="34" width="22" height="22"/>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="kBx-fH-MRO" firstAttribute="centerY" secondItem="rcT-w2-HY4" secondAttribute="centerY" id="1GS-dC-ktq"/>
+                                            <constraint firstItem="qAP-o7-zdM" firstAttribute="centerY" secondItem="rcT-w2-HY4" secondAttribute="centerY" id="1gf-g6-YPA"/>
+                                            <constraint firstItem="cEI-J3-6EZ" firstAttribute="leading" secondItem="kBx-fH-MRO" secondAttribute="trailing" constant="107.5" id="J7J-Yr-vjJ"/>
+                                            <constraint firstItem="0at-db-0ic" firstAttribute="centerY" secondItem="rcT-w2-HY4" secondAttribute="centerY" id="MSC-cx-SWQ"/>
+                                            <constraint firstItem="2bb-Id-d4d" firstAttribute="leading" secondItem="rcT-w2-HY4" secondAttribute="leadingMargin" constant="23" id="NZo-Ia-XJh"/>
+                                            <constraint firstItem="kBx-fH-MRO" firstAttribute="centerY" secondItem="rcT-w2-HY4" secondAttribute="centerY" id="aEj-Gh-thR"/>
+                                            <constraint firstItem="QaX-hB-s5Z" firstAttribute="leading" secondItem="2bb-Id-d4d" secondAttribute="trailing" constant="76" id="awo-jy-TKf"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="cEI-J3-6EZ" secondAttribute="trailing" constant="55" id="ce3-hz-aog"/>
+                                            <constraint firstItem="2bb-Id-d4d" firstAttribute="centerY" secondItem="rcT-w2-HY4" secondAttribute="centerY" id="fwz-xg-OUT"/>
+                                            <constraint firstItem="cEI-J3-6EZ" firstAttribute="centerY" secondItem="rcT-w2-HY4" secondAttribute="centerY" id="prf-8I-49f"/>
+                                            <constraint firstItem="qAP-o7-zdM" firstAttribute="leading" secondItem="0at-db-0ic" secondAttribute="trailing" constant="101" id="r4M-6H-uf2"/>
+                                            <constraint firstItem="QaX-hB-s5Z" firstAttribute="centerY" secondItem="rcT-w2-HY4" secondAttribute="centerY" id="svf-3s-vBt"/>
+                                            <constraint firstItem="kBx-fH-MRO" firstAttribute="leading" secondItem="qAP-o7-zdM" secondAttribute="trailing" constant="1.5" id="u0c-4o-xuv"/>
+                                            <constraint firstItem="0at-db-0ic" firstAttribute="leading" secondItem="QaX-hB-s5Z" secondAttribute="trailing" constant="4.5" id="wVm-h9-5qx"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -131,6 +180,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="roundLabel" destination="kBx-fH-MRO" id="DA6-UP-J5k"/>
+                        <outlet property="scoreLabel" destination="0at-db-0ic" id="H5x-V7-o9t"/>
                         <outlet property="slider" destination="0g8-To-S49" id="Bkp-Mw-pJ9"/>
                         <outlet property="targetLabel" destination="JoP-MM-ctz" id="jxe-L5-MkQ"/>
                     </connections>
