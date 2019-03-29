@@ -16,6 +16,7 @@
 		D40BFAF5224E57EA0077E848 /* bullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BFAF4224E57EA0077E848 /* bullsEyeUITests.swift */; };
 		D4AD8171224EBDBD002F998B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD8170224EBDBD002F998B /* AboutViewController.swift */; };
 		D4AD8173224EC412002F998B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = D4AD8172224EC412002F998B /* BullsEye.html */; };
+		D4AD8175224EC620002F998B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D4AD8174224EC620002F998B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D40BFAF6224E57EA0077E848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4AD8170224EBDBD002F998B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D4AD8172224EC412002F998B /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		D4AD8174224EC620002F998B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		D40BFAC8224E57E60077E848 = {
 			isa = PBXGroup;
 			children = (
+				D4AD8174224EC620002F998B /* .gitignore */,
 				D40BFAD3224E57E60077E848 /* bullsEye */,
 				D40BFAE8224E57EA0077E848 /* bullsEyeTests */,
 				D40BFAF3224E57EA0077E848 /* bullsEyeUITests */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AD8175224EC620002F998B /* .gitignore in Resources */,
 				D40BFADF224E57EA0077E848 /* LaunchScreen.storyboard in Resources */,
 				D4AD8173224EC412002F998B /* BullsEye.html in Resources */,
 				D40BFADC224E57EA0077E848 /* Assets.xcassets in Resources */,
